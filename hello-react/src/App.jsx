@@ -2,15 +2,17 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import './App.css';
+import List from './List';
+
 
 // Create Components
 function App(){
   return(
-    <div>
+    <div className='App'>
     <h1>Hello React</h1>
     <Header />
-    <Header />
-    <Header />
+    <List />
     <Footer />
     </div>
   );
