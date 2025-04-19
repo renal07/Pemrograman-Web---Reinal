@@ -5,7 +5,7 @@ function Footer(){
     return (
         <div>
             <h3>Ini adalah Halaman Footer</h3>
-            <footer> 🚀 Design by {namaMahasiswa} ❤</footer>
+            |<footer> 🚀 Design by {namaMahasiswa} ❤</footer>
         </div>
     );
 }
